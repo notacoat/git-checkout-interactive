@@ -1,6 +1,8 @@
 # git-checkout-interactive
 
 Quick switch between git branches.
+Add --remote flag to get remote branches
+type for autocomplete
 
 ### Install
 
@@ -13,5 +15,3 @@ npm install -g git-checkout-interactive
 ```bash
 gci
 ```
-
-![image](https://user-images.githubusercontent.com/1926029/56238297-11153f00-6086-11e9-93b7-fe22800e0056.png)

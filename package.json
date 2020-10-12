@@ -1,17 +1,18 @@
 {
-  "name": "git-checkout-interactive",
-  "version": "1.0.1",
+  "name": "@notacoat/git-checkout-interactive",
+  "version": "1.1.0",
   "description": "Quick switch between git branches",
-  "author": "Pete Cook",
+  "author": "@notacoat forked via Pete Cook",
   "license": "MIT",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=8.17.0"
   },
   "bin": {
     "gci": "index.js",
     "git-interactive-checkout": "index.js"
   },
   "dependencies": {
-    "prompts": "^2.0.4"
+    "match-sorter": "^4.2.1",
+    "prompts": "^2.3.2"
   }
 }
